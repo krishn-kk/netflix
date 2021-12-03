@@ -8,7 +8,6 @@ function Banner(props) {
     const [movie, setMovie] = useState([]);
     useEffect(() => {
         async function fetchData() {
-            console.log("axios", axios, requests.fetchNetflixOriginal);
             axios
                 .get(requests.fetchActionMovies)
                 .then((request) => {
@@ -20,14 +19,14 @@ function Banner(props) {
                         ]
                     );
                 })
-                .catch(() => console.log("api is not working"));
-
-            // console.log(request);
-            // return request;
+                .catch(() =>
+                    console.log(
+                        "api is not working, Please connect with krishn @ krishn877@gmail.com"
+                    )
+                );
         }
         fetchData();
     }, []);
-    console.log(movie);
     function truncate(str, n) {
         return str?.length > n ? str.substr(0, n - 1) + "..." : str;
     }
@@ -40,7 +39,6 @@ function Banner(props) {
                 backgroundPosition: "center center",
             }}
         >
-            {console.log(movie?.backdrop_path, movie)}
             <div className="banner_contents">
                 <h1 className="banner_title">
                     {movie?.title || movie?.name || movie?.original_name}

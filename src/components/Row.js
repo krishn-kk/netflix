@@ -9,7 +9,6 @@ function Row(props) {
     useEffect(() => {
         async function fetchData() {
             const request = await axios.get(fetchUrl);
-            console.log(request.data.results);
             setMovie(request.data.results);
             return request;
         }
