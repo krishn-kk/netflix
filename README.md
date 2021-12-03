@@ -1,8 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Link to the Website : https://netflix-f74a8.web.app/
-Technologies and APIs used: ReactJS, JavaScript, CSS, Firebase, TMDB API for movie database, react-youtube, movie-trailer package
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+Link to the Website : https://netflix-f74a8.web.app/ \
+Technologies and APIs used: ReactJS, JavaScript, CSS, Firebase, TMDB API for movie database, react-youtube, movie-trailer package \
 
 ## Available Scripts
 
