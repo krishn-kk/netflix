@@ -32,3 +32,20 @@
 	margin-right: 10px;
 }
 
+@media (max-width: 1000px) and (min-width: 700px) {
+	.footer {
+		padding: 60px 94px;
+	}
+}
+
+@media (max-width: 700px) {
+	.footer {
+		padding: 45px 30px;
+	}
+}
+
+@media (max-width: 500px) {
+	.vanish {
+		display: none;
+	}
+}

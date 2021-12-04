@@ -16,7 +16,7 @@ function Row(props) {
     }, [fetchUrl]);
     return (
         <div className="row">
-            <h1>{title}</h1>
+            <h2>{title}</h2>
             <div className="row_posters">
                 {movie.map((mov) => (
                     <img
